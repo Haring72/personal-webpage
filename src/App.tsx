@@ -1,13 +1,26 @@
-import logo from "./assets/logo.png";
-import logo_recortado from "./assets/logo_recortado.png";
-import backgroundImage from "./assets/background.png";
-import contactLink from "./components/ContactLink";
-import "./App.css";
+import React from "react";
+import CategoryPanel from "./components/CategoryPanel";
+import { categories } from "./data/categories";
 
 function App() {
-  //const [count, setCount] = useState(0)
-
-  return <p>Test</p>;
+  return (
+    <div>
+      <main id="servicios">
+        <div>
+          {categories.map((cat, idx) => (
+            <CategoryPanel
+              key={cat.key}
+              index={idx}
+              label={cat.label}
+              summary={cat.summary}
+              accent={cat.accent}
+              services={cat.services}
+            ></CategoryPanel>
+          ))}
+        </div>
+      </main>
+    </div>
+  );
 }
 
 export default App;
