@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import CategoryPanel from "./components/CategoryPanel";
+import Footer from "./components/Footer";
 import { categories } from "./data/categories";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           ))}
         </div>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
