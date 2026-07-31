@@ -7,11 +7,29 @@ import { categories } from "./data/categories";
 
 function App() {
   return (
-    <div>
+    <div
+      style={{
+        minHeight: "100vh",
+        background: "#050d1a",
+      }}
+    >
       <Header></Header>
       <Hero></Hero>
-      <main id="servicios">
-        <div>
+      <main
+        id="servicios"
+        style={{
+          padding: "80px 40px 100px",
+          maxWidth: "1000px",
+          margin: "0 auto",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: "20px",
+          }}
+        >
           {categories.map((cat, idx) => (
             <CategoryPanel
               key={cat.key}
