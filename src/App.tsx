@@ -1,10 +1,12 @@
 import React from "react";
+import Header from "./components/Header";
 import CategoryPanel from "./components/CategoryPanel";
 import { categories } from "./data/categories";
 
 function App() {
   return (
     <div>
+      <Header></Header>
       <main id="servicios">
         <div>
           {categories.map((cat, idx) => (
