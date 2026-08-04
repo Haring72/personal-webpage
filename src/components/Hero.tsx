@@ -52,7 +52,7 @@ export default function Hero() {
             marginBottom: "20px",
           }}
         >
-          Subnombre 1
+          Soluciones tecnológicas
         </div>
         <h1
           style={{
@@ -60,19 +60,20 @@ export default function Hero() {
             fontWeight: 700,
             fontSize: "clamp(40px, 6vw, 72px)",
             lineHeight: 1.05,
-            letterSpacing: "0.4em",
+            letterSpacing: "0.2em",
             textTransform: "uppercase",
             color: "#e8f0fe",
             margin: "0 0 24px",
           }}
         >
-          Nombre 1<br />
+          Alex
+          <br />
           <span
             style={{
               color: "#3b82f6",
             }}
           >
-            Nombre 2
+            Informático
           </span>
         </h1>
         <p
@@ -84,7 +85,9 @@ export default function Hero() {
             maxWidth: "520px",
           }}
         >
-          Añadir descripción del sitio web
+          Se ofrecen diferentes soluciones para la instalación, preparación y
+          mantenimiento de la infraestructura informática de tu empresa (o tu
+          equipo personal), tanto a distancia como presencial.
         </p>
         <a
           href="#servicios"

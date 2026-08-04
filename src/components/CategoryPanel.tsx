@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ServiceItem from "./ServiceItem";
 
 type Service = { title: string; description: string; icon: string };
