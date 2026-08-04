@@ -21,7 +21,7 @@ export default function Footer() {
           color: "rgba(127, 165, 200, 0.5)",
         }}
       >
-        Nombre Empresa
+        Alex Informático
       </span>
       <span
         style={{
