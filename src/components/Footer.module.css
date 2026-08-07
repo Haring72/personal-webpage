@@ -1,0 +1,24 @@
+.footer {
+  border-top: 1px solid rgba(59, 130, 246, 0.1);
+  padding: 28px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.leftSpan {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(127, 165, 200, 0.5);
+}
+
+.rightSpan {
+  font-size: 12px;
+  color: rgba(127, 165, 200, 0.35);
+  letter-spacing: 0.05em;
+}
