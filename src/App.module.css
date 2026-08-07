@@ -1,0 +1,16 @@
+.appRoot {
+  min-height: 100vh;
+  background: #050d1a;
+}
+
+.main {
+  padding: 80px 40px 100px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.servicesColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
