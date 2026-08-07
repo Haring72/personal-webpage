@@ -1,0 +1,79 @@
+.panel {
+  border-radius: 10px;
+  backdrop-filter: blur(16px);
+  overflow: hidden;
+  transition:
+    border-color 0.25s,
+    background 0.25s;
+}
+
+.toggleButton {
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 32px 36px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+}
+
+.indexBadge {
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.infoToggle {
+  flex: 1;
+  min-width: 0;
+}
+
+.label {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #e8f0fe;
+  line-height: 1.1;
+  margin-bottom: 6px;
+}
+
+.summary {
+  font-size: 14px;
+  color: #7fa5c8;
+  line-height: 1.5;
+}
+
+.toggleIcon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.25s;
+}
+
+.collapsible {
+  overflow: hidden;
+  transition: max-height 0.45s cubic-beizer(0.4, 0, 0.2, 1);
+}
+
+.panelContent {
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+  padding: 32px 36px 36px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
