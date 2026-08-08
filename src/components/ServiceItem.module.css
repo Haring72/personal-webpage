@@ -26,3 +26,23 @@
   color: #7fa5c8;
   margin: 0;
 }
+
+@media (max-width: 480px) {
+  .item {
+    padding: 16px;
+  }
+
+  .icon {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .itemTitle {
+    font-size: 14px;
+  }
+
+  .itemDescription {
+    font-size: 12px;
+    line-height: 1.55;
+  }
+}
