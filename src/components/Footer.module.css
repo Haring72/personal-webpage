@@ -22,3 +22,26 @@
   color: rgba(127, 165, 200, 0.35);
   letter-spacing: 0.05em;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 24px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 16px;
+    gap: 8px;
+  }
+
+  .leftSpan {
+    font-size: 13px;
+  }
+
+  .rightSpan {
+    font-size: 11px;
+  }
+}
