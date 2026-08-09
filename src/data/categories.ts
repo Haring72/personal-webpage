@@ -3,13 +3,13 @@ export const categories = [
     key: "categoriaSD",
     label: "Soluciones digitales",
     summary:
-      "Te ayudo a gestionar, proteger y hacer crecer el apartado tecnológico de tu vida o negocio.",
+      "Ayudo a gestionar, proteger y hacer crecer el apartado tecnológico.",
     accent: "#3b82f6",
     services: [
       {
         title: "Presencia web y desarrollo digital",
         description:
-          "Creación y optimización de sitios o aplicaciones web y su respectivo mantenimiento",
+          "Creación y optimización de sitios o aplicaciones web y mantenimiento",
         icon: "◈",
       },
       {
@@ -36,7 +36,7 @@ export const categories = [
     key: "categoriaST",
     label: "Soluciones tecnológicas",
     summary:
-      "Me encargo de garantizar que tu equipo informático y redes funcionen correctamente, resolviendo problemas y evitando futuros fallos siguiendo los estándares",
+      "Garantizo que tu equipo informático y redes funcionen correctamente, resolviendo problemas y evitando futuros fallos siguiendo los estándares",
     accent: "#06b6d4",
     services: [
       {
@@ -58,9 +58,8 @@ export const categories = [
         icon: "⬡",
       },
       {
-        title: "Redes, datos y soporte",
-        description:
-          "Recuperación de datos, configuración de redes y soporte remoto y presencial",
+        title: "Redes y datos",
+        description: "Recuperación de datos y configuración de redes",
         icon: "◉",
       },
     ],

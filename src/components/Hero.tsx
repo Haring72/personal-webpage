@@ -20,8 +20,8 @@ export default function Hero() {
         </h1>
         <p className={styles.subtext}>
           Se ofrecen diferentes soluciones para la instalación, preparación y
-          mantenimiento de la infraestructura informática de tu empresa (o tu
-          equipo personal), tanto a distancia como presencial.
+          mantenimiento de la infraestructura informática de pymes y
+          particulares, tanto a distancia (España) como presencial (Ourense).
         </p>
         <a href="#servicios" className={styles.button}>
           Explorar servicios
