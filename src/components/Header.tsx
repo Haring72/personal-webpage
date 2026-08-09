@@ -1,62 +1,16 @@
 import LogoImg from "../assets/logo_recortado.png";
 import ContactLink from "./ContactLink";
+import styles from "./Header.module.css";
 
 export default function Header() {
   return (
-    <header
-      style={{
-        position: "fixed",
-        top: 0,
-        left: 0,
-        right: 0,
-        zIndex: 100,
-        background: "rgba(5, 13, 26, 0.85)",
-        backdropFilter: "blur(20px)",
-        borderBottom: "1px solid rgba(59, 130, 246, 0.12)",
-        padding: "0 40px",
-        height: "72px",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "12px",
-        }}
-      >
-        <img
-          src={LogoImg}
-          alt="Logo"
-          style={{
-            width: "44px",
-            height: "44px",
-            objectFit: "contain",
-          }}
-        ></img>
-        <div
-          style={{
-            fontFamily: "'Rajdhani', sans-serif",
-            fontWeight: 700,
-            fontSize: "20px",
-            letterSpacing: "0.1em",
-            color: "#e8f0fe",
-            textTransform: "uppercase",
-          }}
-        >
-          Tu informático personal de confianza
-        </div>
+    <header className={styles.header}>
+      <div className={styles.brand}>
+        <img src={LogoImg} alt="Logo" className={styles.logo}></img>
+        <div className={styles.title}>Tu informático personal de confianza</div>
       </div>
 
-      <nav
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "8px",
-        }}
-      >
+      <nav className={styles.nav}>
         <ContactLink
           href="mailto:alexandregonzalez7210@gmail.com"
           label="Email"

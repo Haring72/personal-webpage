@@ -1,0 +1,32 @@
+.appRoot {
+  min-height: 100vh;
+  background: #050d1a;
+}
+
+.main {
+  padding: 80px 40px 100px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.servicesColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 64px 20px 80px;
+  }
+
+  .servicesColumn {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding: 56px 14px 68px;
+  }
+}

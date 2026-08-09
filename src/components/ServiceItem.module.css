@@ -1,0 +1,48 @@
+.item {
+  padding: 20px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.icon {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.itemTitle {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #e8f0fe;
+  margin: 0 0 8px;
+}
+
+.itemDescription {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #7fa5c8;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .item {
+    padding: 16px;
+  }
+
+  .icon {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .itemTitle {
+    font-size: 14px;
+  }
+
+  .itemDescription {
+    font-size: 12px;
+    line-height: 1.55;
+  }
+}
